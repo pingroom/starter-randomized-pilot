@@ -1,0 +1,35 @@
+{
+  "pilotId": "label-practice",
+  "title": "Label lookup practice",
+  "successCriterion": "Recorded code matches the answer key on the first try.",
+  "arms": [
+    {
+      "id": "A",
+      "label": "Read in order",
+      "procedure": "Read labels left to right, then record the requested code."
+    },
+    {
+      "id": "B",
+      "label": "Group by prefix",
+      "procedure": "Group labels by prefix, then record the requested code."
+    }
+  ],
+  "units": [
+    {
+      "id": "card-01",
+      "description": "Practice card 01 with a fixed label set and answer key."
+    },
+    {
+      "id": "card-02",
+      "description": "Practice card 02 with a fixed label set and answer key."
+    },
+    {
+      "id": "card-03",
+      "description": "Practice card 03 with a fixed label set and answer key."
+    },
+    {
+      "id": "card-04",
+      "description": "Practice card 04 with a fixed label set and answer key."
+    }
+  ]
+}
